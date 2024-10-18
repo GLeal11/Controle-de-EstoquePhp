@@ -11,6 +11,6 @@ $buscar_cadastros = "UPDATE produtos SET produto = '$produto', quantidade = '$qu
 
 $query_cadastros = mysqli_query($conexao, $buscar_cadastros);
 
-header('location: listagem.php');
+header('location: site.php');
 
 ?>

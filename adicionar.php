@@ -16,7 +16,7 @@ $query_cadastros = mysqli_query($conexao, $buscar_cadastros);
 
 //mysqli serve pra fazer a consulta que tem dois argumentos, conexão com o bd e a consulta SQL
 
-header('location: listagem.php'); 
+header('location: site.php'); 
 
 //O header serve para redirecionar pra pasta listagem
 

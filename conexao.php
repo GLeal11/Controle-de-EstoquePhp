@@ -1,13 +1,8 @@
 <?php 
 
-// Aqui é a pasta onde vai ficar a configuração pra ter a conexão com o servidor MySQL
+$dbHost = 'LocalHost';
+$dbUsername = 'root';
+$dbPassword = '';
+$dbName = 'controle_estoque'; 
 
-$host = 'localhost';
-$usuario = 'root';
-$senha = '';
-$dbname = 'mercado_produto';
-$porta = '3306';
-
-$conexao = mysqli_connect($host, $usuario, $senha, $dbname, $porta);
-
-?>
+$conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName); 
